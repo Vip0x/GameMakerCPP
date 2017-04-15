@@ -27,3 +27,4 @@
 *.exe
 *.out
 *.app
+/GameCPP/.vs/GameCPP/v15
