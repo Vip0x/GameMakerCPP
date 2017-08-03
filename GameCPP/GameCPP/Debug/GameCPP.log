@@ -1,2 +1,2 @@
-﻿  GameCPP.vcxproj -> C:\Users\Cristian\Source\Repos\GameMakerCPP\GameCPP\Debug\GameCPP.exe
-  GameCPP.vcxproj -> C:\Users\Cristian\Source\Repos\GameMakerCPP\GameCPP\Debug\GameCPP.pdb (Partial PDB)
+﻿  main.cpp
+LINK : fatal error LNK1104: no se puede abrir el archivo 'E:\Ubuntu\Program_Files\Repos\GameMakerCPP\GameCPP\packages\Allegro.5.2.2.1\build\native\v141\Win32\lib\allegro.lib'

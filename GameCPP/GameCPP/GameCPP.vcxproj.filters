@@ -37,9 +37,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="images\map1.png">
       <Filter>images</Filter>
     </Image>
@@ -49,5 +46,8 @@
     <Image Include="images\ME.PNG">
       <Filter>images</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

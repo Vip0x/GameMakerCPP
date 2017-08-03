@@ -81,6 +81,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -107,6 +112,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Ubuntu\Program_Files\Repos\GameMakerCPP\GameCPP\packages\Allegro.5.2.2.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -154,12 +160,12 @@
     <ClInclude Include="GlobalHdrsKrnl.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="images\map1.png" />
     <Image Include="images\map2.PNG" />
     <Image Include="images\ME.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
